@@ -34,7 +34,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="2dp"
         android:scaleType="fitXY"
-        android:src="@drawable/schlogo"
+        android:src="@drawable/princiapl_logo"
         app:layout_constraintBottom_toTopOf="@+id/principal_name"
         app:layout_constraintEnd_toEndOf="@+id/nagaon_header"
         app:layout_constraintHorizontal_bias="0.498"
