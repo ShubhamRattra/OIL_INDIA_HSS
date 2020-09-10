@@ -33,7 +33,7 @@ public class NoticeActivity extends AppCompatActivity {
 
         webView.setWebViewClient(new WebViewClient());
 
-        webView.loadUrl("https://www.google.com/?gws_rd=ssl");
+        webView.loadUrl("https://drive.google.com/folderview?id=1bmKGSNpDKInmYFl8oYasESeozl-zw71f");
 
     }
 
@@ -42,10 +42,10 @@ public class NoticeActivity extends AppCompatActivity {
     public void onBackPressed() {
         if (webView.canGoBack()) {
             webView.goBack();
-            Toast.makeText(this,"Opening Notice",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Opening Study material",Toast.LENGTH_SHORT).show();
         } else {
             super.onBackPressed();
-            Toast.makeText(this,"Closing Notice",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Closing Study material",Toast.LENGTH_SHORT).show();
         }
     }
 }

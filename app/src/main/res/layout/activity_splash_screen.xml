@@ -13,66 +13,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
         android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:text="@string/NGBS"
         android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:textSize="@dimen/_24sdp"
-        app:layout_constraintBottom_toTopOf="@+id/principal_logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="@dimen/_22sdp" />
 
     <ImageView
         android:id="@+id/principal_logo"
         android:layout_width="140dp"
         android:layout_height="160dp"
         android:layout_gravity="center"
-        android:layout_marginTop="2dp"
         android:scaleType="fitXY"
-        android:src="@drawable/princiapl_logo"
-        app:layout_constraintBottom_toTopOf="@+id/principal_name"
-        app:layout_constraintEnd_toEndOf="@+id/nagaon_header"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/nagaon_header"
-        app:layout_constraintTop_toBottomOf="@+id/nagaon_header" />
+        android:src="@drawable/princiapl_logo" />
 
     <TextView
         android:id="@+id/principal_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="@dimen/_2sdp"
         android:layout_gravity="center"
         android:text="@string/princi_msg"
-        android:textSize="@dimen/_20sdp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/principal_logo" />
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
         android:layout_gravity="center"
         android:text="@string/principle_message"
-        android:textAlignment="center"
         android:textSize="@dimen/_14sdp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/nagaon_header"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/principal_name" />
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:textStyle="normal" />
 
 </LinearLayout>

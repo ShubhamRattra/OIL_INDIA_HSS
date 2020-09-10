@@ -1,6 +1,7 @@
 package com.rattra.navigationdrawertechno.ui.slideshow;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,14 +17,20 @@ import com.rattra.navigationdrawertechno.R;
 
 public class SlideshowFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                ViewModelProviders.of(this).get(SlideshowViewModel.class);
+        SlideshowViewModel slideshowViewModel = ViewModelProviders.of(this).get(SlideshowViewModel.class);
         View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
-        final TextView textView = root.findViewById(R.id.text_slideshow);
+
+
+        TextView textView1 = root.findViewById(R.id.text_slideclick1);
+        textView1.setMovementMethod(LinkMovementMethod.getInstance());
+
+        TextView textView2 = root.findViewById(R.id.text_slideclick2);
+        textView2.setMovementMethod(LinkMovementMethod.getInstance());
+
+
+        final TextView textView = root.findViewById(R.id.text_slideloc);
         slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

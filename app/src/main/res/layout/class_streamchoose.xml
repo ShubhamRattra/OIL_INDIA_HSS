@@ -1,48 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:text="@string/select_stream"
+        android:textStyle="italic"
+        android:background="#DADFFF"
+        android:paddingTop="@dimen/_5sdp"
+        android:textSize="@dimen/_35sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textAlignment="center"/>
 
     <Button
         android:id="@+id/artbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:textColor="@android:color/holo_green_light"
         android:text="@string/arts"
-        app:layout_constraintBottom_toTopOf="@+id/sciencebutton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/_20sdp" />
 
     <Button
         android:id="@+id/sciencebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/science"
-        app:layout_constraintBottom_toTopOf="@+id/commercebutton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/artbutton" />
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/science" />
 
     <Button
         android:id="@+id/commercebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/commerce"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sciencebutton" />
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/commerce" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

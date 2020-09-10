@@ -34,12 +34,12 @@ public class HomeFragment extends Fragment {
         btn_Notice = root.findViewById(R.id.button_notice);
         btn_class = root.findViewById(R.id.button_class);
 
-        btn_Notice.setOnClickListener(new View.OnClickListener() {
+      /*  btn_Notice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View root) {
                 startActivity(new Intent(getActivity(), NoticeActivity.class));
             }
-        });
+        }); */
 
         btn_class.setOnClickListener(new View.OnClickListener() {
             @Override

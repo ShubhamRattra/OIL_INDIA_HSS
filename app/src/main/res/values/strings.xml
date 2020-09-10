@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Navigation Drawer techno</string>
+
+    <string name="app_name">NGB-SHIKSHA</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
@@ -12,24 +13,24 @@
     <string name="nagaon_govt_boys_high_senior_secondary_school_nagaon">Nagaon govt. boys high senior secondary school, Nagaon</string>
 
     <string name="about_us">About us</string>
-    <string name="contact_us">Contact us</string>
+    <string name="Contributer">Contributors:</string>
 
-    <string name="aboutschoolcontent">Nagaon Govt. Boys\' H.S.School was established on 17th Nov.1865. It is a proud privilege for me to serve as a Principal of this esteemed institution. As Principal, my goal is to inspire staff, parents, and community to work together to provide education for all-round development of students. I look forward to the opportunity to empower our students to reach great success. It is a matter of pride for us that our staff have involved and successfully implemented a system for the educational development of our school. Keeping this in mind, our school family continues to remain committed to achieving both our vision and mission. And I am sure the school will reach a greater height in the years to come. We believe our educational app will provide necessary learning materials to students in a true manner.</string>
-    <string name="abouttechnocontent"><![CDATA[Technomekanics was incorporated in 2019 by passion-driven techies who are willing to contribute to the society. We are specialist in the field of IoT & Electronics with an extensive team of competent research engineers and developers we are proficient in all domains related to the art of Robotics: AI & ML, IoT and software development. To do so we are providing a technical platform where one can get exposure to current industrial advancements, inbuilt their mindset, develop their ideas into reality, and create an impact.]]></string>
-    <string name="websitelink"><![CDATA[Website – \n https://www.technomekanics.com/]]></string>
-    <string name="facebooklink"><![CDATA[Facebook – \n https://www.facebook.com/technomekanics/?ti=as]]></string>
-    <string name="Instalink"><![CDATA[Instagram – \n https://instagram.com/technomekanicsigshid=1mhlijrpijr24]]></string>
-    <string name="linkidinlink"><![CDATA[LinkedIn – \n https://www.linkedin.com/company/technomekanics/]]></string>
+    <string name="aboutschoolcontent">Govt. Boys’ Higher Secondary School, Nagaon was established on 17th November, 1865. It is one of the oldest secondary schools in Assam. Since its establishment, this institution has been playing a vital role in educating the people of the district. The 17th November, 1865 is indeed a red letter day in the history of education of Nowgong. Janmejoy Das was appointed as the first Head Master of this school. He continued his service till 1872. The school has four other teachers besides the Head Master and enrolment of pupils in the first year was no more than twenty three. The first batch of pupils numbering three, appeared at the entrance examination of the Calcutta University in 1870. During ten years from 1870 to 1879 as many as 28 candidates appeared at the entrance examination from this school. Physical training was introduced in this school in 1904 and in 1907, the Annual Sports were held in this school for the first time. The school magazine ‘Udoy’ was published for the first time in 1947. Since the establishment of the Gauhati University in 1948, this school has been under it. The school came to the close of the High School status along with its conversion to a Higher Secondary School in 1959. From the humble beginning with 5 teachers and 23 pupils, it has bloomed into full fledged Higher Secondary school from VI to XII with 46 teachers and 11 non-teaching staffs and about 1000 students. Many facilities and opportunities are now available to the pupils. A well equipped Biotech lab under BLiSS programme of Dept. of Biotechnology and ATL innovative lab under NITI Aayog, Govt. of India were established in the school, through which students can be trained in the field of modern Bio Science as well as in Robotic Science. A large number of pupils enjoy free studentship or scholarships or both under different government schemes and other non-government students’ welfare funds.</string>
+    <string name="contri">Supported and funded by: Dipika Laskar\nCo-ordinate by: Sunita Laskar\n\nApp developed by:\nAhambarish Saikia , Shubham Rattra , Ritom Tamuli\n\nFor any app related query\nmail us at info.technomekanics@gmail.com\nOr +91 8638731941</string>
+
+
     <string name="cont">Contact us:-</string>
     <string name="abt">About us:-</string>
     <string name="sch">School -</string>
     <string name="tech">Technomekanics -</string>
 
     <string name="NGBS">Nagaon Govt Boys Higher Secondary School</string>
-    <string name="princi_msg">Principal\'s message</string>
-    <string name="principle_message">Nagaon Govt. Boys\' H.S.School was established on 17th Nov.1865. It is proud privilige for me to serve as a Principal of this esteemed institution. As Principal ,my goal is to inspire staff,  parents and community to work together to provide education for all round development of students.I look forward to the opportunity to empower our students to reach a great success.It is a matter of pride for us that our staff have involved and successfully implemented a system for educational development of our school. Keeping this in mind, our school family continues to remain committed to achieve both our vision and mission. And I am sure  the school will reach greater height in the years to come
-   We believe ,our educational app will provide necessary learning materials to students in true manner</string>
+    <string name="princi_msg">From Principal\'s Desk</string>
+    <string name="principle_message">Nagaon Govt. Boys\' H.S.School was established on 17th Nov.1865. It is proud privilige for me to serve as a Principal of this esteemed institution. As Principal ,my goal is to inspire staff,  parents and community to work together to provide education for all round development of students.I look forward to the opportunity to empower our students to reach a great success.It is a matter of pride for us that our staff have involved and successfully implemented a system for educational development of our school. Keeping this in mind, our school family continues to remain committed to achieve both our vision and mission. And I am sure  the school will reach greater height in the years to comeWe believe ,our educational app will provide necessary learning materials to students in true manner</string>
 
+    <string name="welcome_to_ngbhs">Welcome to NGB-SHIKSHA</string>
+
+    <string name="select_stream">Select stream</string>
 
     <string name="class_6">Class 6</string>
     <string name="class_7">Class 7</string>
@@ -42,7 +43,6 @@
     <string name="hindi">Hindi</string>
     <string name="maths">Maths</string>
     <string name="class_ngbhs">Class NGBHS</string>
-    <string name="welcome_to_ngbhs">Welcome to NGBHS</string>
     <string name="class_12">Class 12</string>
     <string name="get_ready_for_new_way_of_learning_class_6">Get Ready For Class 6</string>
     <string name="get_ready_class_11">Get Ready For Class 11</string>
@@ -80,11 +80,29 @@
     <string name="accountancy">Accountancy</string>
     <string name="business_studies">Business Studies</string>
     <string name="alternate_english">Alternate English</string>
-    <string name="title_activity_drawer">DrawerActivity</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <string name="but_notice">Notice</string>
+
+    <string name="but_notice">
+        Study Material
+    </string>
+
     <string name="but_class">Class</string>
+
+    <string name="contact_us">Contact us</string>
+
+
+    <string name="school_website">
+        School website- <a href="http://www.nagaongovtboyshss.org/">Click here</a>
+    </string>
+
+    <string name="technomekanic_s_website">
+        Technomekanic\'s website- <a href="https://www.technomekanics.com/">Click here</a>
+    </string>
+
+    <string name="slideshow_addr">Our address:\nNagaon Govt. Boys\' HS School\nBM Road, Nagaon, Assam 782001</string>
+    <string name="slideshoe_email">Email: principalgovtboys@gmail.com</string>
+    <string name="slideshow_phone">Phone number: +91 9435224363 , +91 6002076769</string>
+
 </resources>
