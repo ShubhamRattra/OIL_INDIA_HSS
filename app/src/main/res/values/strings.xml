@@ -81,13 +81,11 @@
     <string name="business_studies">Business Studies</string>
     <string name="alternate_english">Alternate English</string>
 
+
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
-    <string name="but_notice">
-        Study Material
-    </string>
-
+    <string name="but_notice">Study Material</string>
     <string name="but_class">Class</string>
 
     <string name="contact_us">Contact us</string>
