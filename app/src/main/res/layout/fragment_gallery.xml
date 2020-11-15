@@ -16,15 +16,14 @@
         android:id="@+id/sch_cont"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_140sdp"
-        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
         android:paddingTop="@dimen/_5sdp"
-        android:src="@drawable/school_photo" />
+        android:src="@drawable/oilhss" />
 
     <TextView
         android:id="@+id/text_gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/_2sdp"
         android:paddingStart="@dimen/_10sdp"
         android:paddingEnd="@dimen/_10sdp"
         android:text="@string/aboutschoolcontent"
@@ -43,7 +42,7 @@
                 android:layout_marginTop="@dimen/_1sdp"
                 android:paddingTop="@dimen/_5sdp"
                 android:layout_weight="1"
-                android:src="@drawable/sch_photo1" />
+                android:src="@drawable/sch1" />
 
             <ImageView
                 android:id="@+id/sch_photo2"
@@ -52,7 +51,7 @@
                 android:layout_marginTop="@dimen/_1sdp"
                 android:paddingTop="@dimen/_5sdp"
                 android:layout_weight="1"
-                android:src="@drawable/sch_photo2" />
+                android:src="@drawable/sch2" />
 
             <ImageView
                 android:id="@+id/sch_photo3"
@@ -61,25 +60,11 @@
                 android:layout_marginTop="@dimen/_1sdp"
                 android:paddingTop="@dimen/_5sdp"
                 android:layout_weight="1"
-                android:src="@drawable/sch_photo3" />
+                android:src="@drawable/sch3" />
 
 
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/sch_moto"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/_140sdp"
-            android:layout_marginTop="@dimen/_1sdp"
-            android:paddingTop="@dimen/_5sdp"
-            android:src="@drawable/sch_moto" />
-
-        <ImageView
-            android:id="@+id/sch_obj"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_160sdp"
-            android:paddingTop="@dimen/_5sdp"
-            android:src="@drawable/sch_obj" />
 
     <TextView
         android:id="@+id/text_gallery2"

@@ -17,7 +17,7 @@
         android:layout_marginEnd="@dimen/_2sdp"
         android:layout_gravity="center"
         android:gravity="center_horizontal"
-        android:text="@string/NGBS"
+        android:text="Oil India Higher Secondary School, Duliajan"
         android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textSize="@dimen/_22sdp" />
@@ -28,7 +28,7 @@
         android:layout_height="160dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
-        android:src="@drawable/princiapl_logo" />
+        android:src="@drawable/principal_logo" />
 
     <TextView
         android:id="@+id/principal_name"

@@ -7,22 +7,21 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.webkit.DownloadListener;
-import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-public class NoticeActivity extends AppCompatActivity {
+public class Google_Class extends AppCompatActivity {
 
     WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notice);
+        setContentView(R.layout.activity_google__class);
 
-        webView = findViewById(R.id.web_notice);
+        webView = findViewById(R.id.Gclass);
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setAllowFileAccess(true);
@@ -37,11 +36,10 @@ public class NoticeActivity extends AppCompatActivity {
         // webView.setWebChromeClient(new client());
 
 
-        webView = findViewById(R.id.web_notice);
+        webView = findViewById(R.id.Gclass);
 
-        webView.setWebViewClient(new client());
 
-        webView.loadUrl("https://drive.google.com/folderview?id=1bmKGSNpDKInmYFl8oYasESeozl-zw71f");
+        webView.loadUrl("https://classroom.google.com");
 
 
         webView.setDownloadListener(new DownloadListener() {
@@ -59,22 +57,22 @@ public class NoticeActivity extends AppCompatActivity {
     }
 
 
-private class client extends WebViewClient{
-    @Override
-    public void onPageStarted(WebView view, String url, Bitmap favicon) {
-        super.onPageStarted(view, url, favicon);
-    }
+    private class client extends WebViewClient {
+        @Override
+        public void onPageStarted(WebView view, String url, Bitmap favicon) {
+            super.onPageStarted(view, url, favicon);
+        }
 
-    @Override
-    public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        return super.shouldOverrideUrlLoading(view, url);
-    }
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            return super.shouldOverrideUrlLoading(view, url);
+        }
 
-    @Override
-    public void onPageFinished(WebView view, String url) {
-        super.onPageFinished(view, url);
+        @Override
+        public void onPageFinished(WebView view, String url) {
+            super.onPageFinished(view, url);
+        }
     }
-}
 
 
     //Code For Back Button
@@ -82,10 +80,10 @@ private class client extends WebViewClient{
     public void onBackPressed() {
         if (webView.canGoBack()) {
             webView.goBack();
-            Toast.makeText(this,"Opening Study material",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Opening Google Class",Toast.LENGTH_SHORT).show();
         } else {
             super.onBackPressed();
-            Toast.makeText(this,"Closing Study material",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Closing Google Class",Toast.LENGTH_SHORT).show();
         }
     }
 }

@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">NGB-SHIKSHA</string>
+    <string name="app_name">OIL IND HSS</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
@@ -15,7 +15,7 @@
     <string name="about_us">About us</string>
     <string name="Contributer">Contributors:</string>
 
-    <string name="aboutschoolcontent">Govt. Boys’ Higher Secondary School, Nagaon was established on 17th November, 1865. It is one of the oldest secondary schools in Assam. Since its establishment, this institution has been playing a vital role in educating the people of the district. The 17th November, 1865 is indeed a red letter day in the history of education of Nowgong. Janmejoy Das was appointed as the first Head Master of this school. He continued his service till 1872. The school has four other teachers besides the Head Master and enrolment of pupils in the first year was no more than twenty three. The first batch of pupils numbering three, appeared at the entrance examination of the Calcutta University in 1870. During ten years from 1870 to 1879 as many as 28 candidates appeared at the entrance examination from this school. Physical training was introduced in this school in 1904 and in 1907, the Annual Sports were held in this school for the first time. The school magazine ‘Udoy’ was published for the first time in 1947. Since the establishment of the Gauhati University in 1948, this school has been under it. The school came to the close of the High School status along with its conversion to a Higher Secondary School in 1959. From the humble beginning with 5 teachers and 23 pupils, it has bloomed into full fledged Higher Secondary school from VI to XII with 46 teachers and 11 non-teaching staffs and about 1000 students. Many facilities and opportunities are now available to the pupils. A well equipped Biotech lab under BLiSS programme of Dept. of Biotechnology and ATL innovative lab under NITI Aayog, Govt. of India were established in the school, through which students can be trained in the field of modern Bio Science as well as in Robotic Science. A large number of pupils enjoy free studentship or scholarships or both under different government schemes and other non-government students’ welfare funds.</string>
+    <string name="aboutschoolcontent">Established in 1963 and spread over a sprawling 3.3 acres, Oil India Higher Secondary School, Duliajan significantly finds its role in preparing children for life and for global citizenship. Under the patronage of Oil India Limited which is a premier national Oil company and affiliated to Board of Secondary Education, Assam and Assam Higher Secondary Education Council, the school provides education to both boys and girls in three different mediums-English, Assamese and Hindi making it the pioneer of its kind. The school started its journey from a temporary building in Duliajan Club with a strength of 128 students and today it boasts of offering education to nearly 1200 students. The school is up to Higher Secondary level having four sections in each class from VI to X and one section each in Science and Arts at +2 level offering a good range of subject combinations. The school has a long record of brilliant results and can claim among its alumni many illustrious minds of India, particularly of Assam.The very first batch of the school in 1967 marked the beginning of a glorious legacy of significant achievements as Laxman Kanuga topped the rank holders in the Humanities group in the state and Saraju Prasad Tripathi stood fifth among the rank holders in the Science stream. The institution has also been served by several teachers of high repute. K B Kanuga , GM ,OIL , Chairman ,School Committee is seen delivering the address of welcome on the foundation stone laying ceremony of the school . Dev Kant Barooah , Education Minister , Assam and A.B.Dasgupta , the president of the Lions Club are also seen on the dais.</string>
     <string name="contri">Supported and funded by: Dipika Laskar\nCo-ordinate by: Sunita Laskar\n\nApp developed by:\nAhambarish Saikia , Shubham Rattra , Ritom Tamuli\n\nFor any app related query\nmail us at info.technomekanics@gmail.com\nOr +91 8638731941</string>
 
 
@@ -26,7 +26,7 @@
 
     <string name="NGBS">Nagaon Govt Boys Higher Secondary School</string>
     <string name="princi_msg">From Principal\'s Desk</string>
-    <string name="principle_message">Nagaon Govt. Boys\' H.S.School was established on 17th Nov.1865. It is proud privilige for me to serve as a Principal of this esteemed institution. As Principal ,my goal is to inspire staff,  parents and community to work together to provide education for all round development of students.I look forward to the opportunity to empower our students to reach a great success.It is a matter of pride for us that our staff have involved and successfully implemented a system for educational development of our school. Keeping this in mind, our school family continues to remain committed to achieve both our vision and mission. And I am sure  the school will reach greater height in the years to comeWe believe ,our educational app will provide necessary learning materials to students in true manner</string>
+    <string name="principle_message">Oil India Higher Secondary School, Duliajan was established in 1963. It is proud privilige for me to serve as a Principal of this esteemed institution. As Principal ,my goal is to inspire staff,  parents and community to work together to provide education for all round development of students.I look forward to the opportunity to empower our students to reach a great success.It is a matter of pride for us that our staff have involved and successfully implemented a system for educational development of our school. Keeping this in mind, our school family continues to remain committed to achieve both our vision and mission. And I am sure  the school will reach greater height in the years to comeWe believe ,our educational app will provide necessary learning materials to students in true manner</string>
 
     <string name="welcome_to_ngbhs">Welcome to NGB-SHIKSHA</string>
 
@@ -92,15 +92,17 @@
 
 
     <string name="school_website">
-        School website- <a href="http://www.nagaongovtboyshss.org/">Click here</a>
+        School website- <a href="http://www.oilindiahsschool.in/oilhss1.asp">Click here</a>
     </string>
 
     <string name="technomekanic_s_website">
         Technomekanic\'s website- <a href="https://www.technomekanics.com/">Click here</a>
     </string>
 
-    <string name="slideshow_addr">Our address:\nNagaon Govt. Boys\' HS School\nBM Road, Nagaon, Assam 782001</string>
-    <string name="slideshoe_email">Email: principalgovtboys@gmail.com</string>
-    <string name="slideshow_phone">Phone number: +91 9435224363 , +91 6002076769</string>
+    <string name="slideshow_addr">Our address:\nOil Town Duliajan, Duliajan No.1, Assam 786602</string>
+    <string name="slideshoe_email">Email: oilhsschool@gmail.com</string>
+    <string name="slideshow_phone">Phone number: 03742800420,03742807322</string>
+
+    <string name="google_class">Google Class</string>
 
 </resources>

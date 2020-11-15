@@ -13,11 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_110sdp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:layout_marginEnd="8dp"
         android:paddingTop="@dimen/_5sdp"
         android:layout_gravity="center_horizontal"
-        android:text="@string/welcome_to_ngbhs"
+        android:text="Welcome to \nOIL India HSS"
         android:background="#E1EEF8"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -31,11 +31,9 @@
         android:layout_width="@dimen/_170sdp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_75sdp"
+        android:layout_marginTop="@dimen/_50sdp"
         android:text="@string/but_class"
-        android:textSize="@dimen/_30sdp"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="378dp" />
+        android:textSize="@dimen/_30sdp" />
 
     <Button
         android:id="@+id/button_notice"
@@ -44,10 +42,19 @@
         android:layout_width="@dimen/_170sdp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_85sdp"
+        android:layout_marginTop="@dimen/_50sdp"
         android:text="@string/but_notice"
-        android:textSize="@dimen/_30sdp"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="216dp" />
+        android:textSize="@dimen/_30sdp" />
+
+    <Button
+        android:id="@+id/button_gclass"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/google_class"
+        android:textSize="@dimen/_30sdp" />
 
 </LinearLayout>

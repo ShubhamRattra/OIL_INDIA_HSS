@@ -16,7 +16,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_height="160dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:srcCompat="@drawable/schlogo" />
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/nagaon_govt_boys_high_senior_secondary_school_nagaon"
+        android:text="Oil India Higher Secondary School, Duliajan"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
